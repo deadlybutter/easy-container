@@ -7,7 +7,7 @@
  * @return {Component}
  */
 const Container = (connect, Component) => {
-  const mapStateToProps = Component.mapStateToProps || () => {};
+  const mapStateToProps = Component.mapStateToProps;
   const actionCreators = Component.actionCreators || {};
 
   return connect(mapStateToProps, actionCreators)(Component);

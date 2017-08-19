@@ -1,14 +1,17 @@
 {
   "name": "easy-container",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make Redux containers faster",
-  "keywords": ["react", "redux"],
+  "keywords": [
+    "react",
+    "redux"
+  ],
   "main": "index.js",
   "author": "Joe Kent",
   "license": "MIT",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/deadlybutter/easy-container"
+    "type": "git",
+    "url": "https://github.com/deadlybutter/easy-container"
   },
   "dependencies": {}
 }
